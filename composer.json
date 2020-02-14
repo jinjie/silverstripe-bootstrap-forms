@@ -1,0 +1,13 @@
+{
+    "name": "jinjie/silverstripe-bootstrap-forms",
+    "description": "Silverstripe theme to make forms compatible with Bootstrap 4",
+    "type": "silverstripe-theme",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "require": {}
+}
