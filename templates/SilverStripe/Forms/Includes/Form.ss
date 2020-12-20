@@ -2,7 +2,7 @@
 <form $AttributesHTML>
 <% end_if %>
     <% if $Message %>
-    <div id="{$FormName}_error" class="message alert alert-<% if $MessageType == "good" %>success<% end_if %><% if $MessageType == "error" %>danger<% end_if %>">$Message</div>
+    <div id="{$FormName}_error" class="message alert alert-<% if $MessageType == "good" %>success<% end_if %><% if $MessageType == "error" || $MessageType == "required" %>danger<% end_if %>">$Message</div>
     <% else %>
     <div id="{$FormName}_error" class="message alert $MessageType" style="display: none"></div>
     <% end_if %>
